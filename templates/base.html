@@ -1,0 +1,55 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alex-Oduor</title>
+ 
+
+        <link rel="stylesheet" href="{% static 'index.css' %}">
+         <link rel="stylesheet" href="../static/index.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+  <body>
+    <div class="wrapper">
+    <header>
+        <div class="logo">Alex Oduor</div>
+        <nav>
+            <ul>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+       <div class="content">
+     
+       {% block content %} {% endblock %}
+   </div>
+    
+</div>
+
+    <footer>
+    
+       <div id ="socials" class="socials">
+        
+    <a href="https://x.com/zero_mediocre"><i class="fa fa-twitter"  style="font-size:36px"></i></a>
+    <a href="https://github.com/Alex-Oduor"><i class="fa fa-github" style="font-size:36px"></i></a>
+    <a href="https://wa.me/254794510826" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp" style="font-size:36px"></i></a>
+    <a href=""><i class="fa fa-telegram" style="font-size:36px"></i></a>
+    
+    
+       </div>
+
+        &copy; 2025 Alex-Oduor
+
+
+
+
+    </footer>
+
+    
+  </body>
+</html>

@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    color: white;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction:column;
+    background-color: black;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    border-bottom: solid red 1px;
+    padding: 20px;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+}
+
+header ul li{
+    list-style-type: none;
+
+}
+
+header ul li a{
+    text-decoration: none;
+
+}
+header ul li a:hover{
+    color:green;
+}
+
+
+
+/* Content wrapper grows to push footer down */
+/* .wrapper {
+    flex: 1;
+    padding: 20px;
+} */
+
+
+/* Footer styling */
+footer {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .socials{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+}

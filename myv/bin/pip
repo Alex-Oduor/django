@@ -1,4 +1,4 @@
-#!/home/alex/Desktop/Django-tutorial/myv/bin/python3
+#!/home/alex/portfolio/django/myv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
