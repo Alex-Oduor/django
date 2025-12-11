@@ -4,52 +4,44 @@
 <html>
     <head>
         <title>Alex-Oduor</title>
- 
-
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
         <link rel="stylesheet" href="{% static 'index.css' %}">
-         <link rel="stylesheet" href="../static/index.css">
-         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/0b53bbef8d.js" crossorigin="anonymous"></script>
         
     </head>
   <body>
-    <div class="wrapper">
-    <header>
-        <div class="logo">Alex Oduor</div>
-        <nav>
-            <ul>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+            <header>
+                <div class="logo">Alex Oduor</div>
+                <nav>
+                    <ul>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="#socials">Contact</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                    </ul>
+                </nav>
+            </header>
 
-       <div class="content">
-     
-       {% block content %} {% endblock %}
-   </div>
-    
-</div>
+            <div class="content">
+            
+               {% block content %} {% endblock %}
+               
+
+            </div>
+            
+    </div>
 
     <footer>
-    
-       <div id ="socials" class="socials">
-        
-    <a href="https://x.com/zero_mediocre"><i class="fa fa-twitter"  style="font-size:36px"></i></a>
-    <a href="https://github.com/Alex-Oduor"><i class="fa fa-github" style="font-size:36px"></i></a>
-    <a href="https://wa.me/254794510826" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp" style="font-size:36px"></i></a>
-    <a href=""><i class="fa fa-telegram" style="font-size:36px"></i></a>
-    
-    
-       </div>
 
-        &copy; 2025 Alex-Oduor
+            <div id ="socials" class="socials">
+                    <a href="https://x.com/zero_mediocre"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com/Alex-Oduor"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://wa.me/254794510826" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
 
-
-
+                Alex-Oduor &copy; 2025 
 
     </footer>
 
-    
   </body>
 </html>

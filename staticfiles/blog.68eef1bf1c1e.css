@@ -1,0 +1,17 @@
+
+.content {
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    height: 100vh;
+    padding: 50px;
+
+    
+}
+
+.content article{
+    border-bottom: 1px solid white;
+    padding: .5rem;
+    border-bottom-style: dashed;
+    
+}
