@@ -1,0 +1,87 @@
+*{
+    /* box-sizing: border-box; */
+    color: white;
+}
+/* 
+
+html, body {
+    height: 100%;
+} */
+
+body {
+    /* display: flex;
+    flex-direction:column; */
+    background-color: black;
+    /* font-size: 16px; */
+}
+
+header{
+    display: flex;
+    border-bottom: solid red 1px;
+    padding: 20px;
+    justify-content: space-between;
+    height: 100px;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+}
+
+header ul li{
+    list-style-type: none;
+
+}
+
+header ul li a{
+    text-decoration: none;
+
+}
+header ul li a:hover{
+    color:green;
+}
+
+
+
+/* Content wrapper grows to push footer down */
+/* .wrapper {
+    flex: 1;
+    padding: 20px;
+} */
+
+
+/* Footer styling */
+footer {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .socials{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+}
+
+.intro{
+/*     
+    padding:100px; */
+    text-align: center;
+    gap:10px;
+    align-content: center;
+    box-shadow :5rem;
+    height: calc(100vh);
+}
+
+
+
+button{
+    border-radius: 8px;
+     padding: 10px;
+     background-color: red;
+     border: none;
+     color: black;
+     font-size: 20px;
+}
